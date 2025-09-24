@@ -1,0 +1,9 @@
+template:
+    ros__parameters:
+        template_subscribe_topic_name: /template_sub
+        template_publish_topic_name: /template_pub
+        template_scs_topic_name: /scs_signal/template
+        loop_rate: 100.0
+        watch_dog_rate: 2.0
+        visualization_rate: 5.0
+        watch_dog_timeout: 1.0

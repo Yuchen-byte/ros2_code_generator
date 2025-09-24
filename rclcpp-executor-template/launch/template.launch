@@ -1,0 +1,8 @@
+<launch>
+
+  <!-- Launch ROS Package Template Node -->
+  <node pkg="template" exec="template" name="template" output="screen">
+    <param from="$(find-pkg-share template)/config/template.yaml"/>
+  </node>
+
+</launch>
